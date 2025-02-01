@@ -1,24 +1,24 @@
 // usuarios podem inserir nomes no campo de texto
-let amigos = [];
+let friendsLista = [];
 let lista = document.getElementById('listaAmigos');
 lista.innerHTML = '';
-for (let i = 0; i < amigos.length; i++){
+for (let i = 0; i < friedsLista.length; i++){
     let item = document.createElement('li')
 }
 
 // adicionar nome na lista clicando em "adicionar"
 function adicionarAmigo(){
-    let campoNome = document.getElementById('amigo')
-    let nome = campoNome.value;
+    let nomeDigitado = document.getElementById('amigo')
+    let nome = nomeDigitado.value;
     if (nome === ''){
-        alert('Por favor, insira um nome.')
+        alert('Desculpe, não pode ser nome vazio....')
         return;
     }
-        if (amigos.includes(nome)) {
-            alert('Nome duplicado, insira outro');
+        if (friendsLista.includes(nome)) {
+            alert('Amigo duplicado, digite outro...');
             return
         }
-    amigos.push(nome)
+    friendsLista.push(nome)
     limparCampo();
     AtualizarLista();
     console.log(nome);
@@ -28,23 +28,23 @@ function adicionarAmigo(){
 function AtualizarLista(){
     let lista = document.getElementById('listaAmigos')
     lista.innerHTML = '';
-    amigos.forEach(function(nome) {
+    friendsLista.forEach(function(nome) {
     lista.innerHTML += `<li>${nome}</li>`
     })
     }
 
 AtualizarLista();
 
-// botão "sortear amigo" com função de sortear um nome recebido da lista de maneira aleatoria
+// botão "sortear amigo" aleatoriamente
 function sortearAmigo(){
-    if (amigos.length === 0){
-        alert('A lista de amigos esta vazia! Adicione um nome para sortear')
+    if (friendsLista.length === 0){
+        alert('Lista vazia! Impossível sortear, adicione um amigo...')
         return;
     }
-    let amigosAleatorios = Math.floor(Math.random() * amigos.length);
-    let amigoSorteado = amigos[amigosAleatorios];
-    document.getElementById("resultado").innerHTML = `🎉 O amigo secreto é: <strong>${amigoSorteado}</strong>`;
-    amigos.splice(amigosAleatorios, 1);
+    let amigosAleatorios = Math.floor(Math.random() * friendsLista.length);
+    let amigoSorteado = friendsLista[amigosAleatorios];
+    document.getElementById("resultado").innerHTML = `🎉 O amigo sorteado é: <strong>${amigoSorteado}</strong>`;
+    friendsLista.splice(amigosAleatorios, 1);
     AtualizarLista();
 } 
 
