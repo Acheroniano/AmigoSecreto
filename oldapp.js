@@ -1,3 +1,45 @@
+/*
+
+//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+
+// Definir a matriz onde os nomes serão armazenados
+let nomes = [];
+
+// Chama a função para adicionar o nome
+
+do {
+
+    nomeDigitado = adicionarNome();
+
+} while (nomeDigitado.toLowerCase() !== "sair");
+
+
+
+
+/* Funções */
+
+// Função para receber o nome e verificar se é válido
+function adicionarNome() {
+  // Recebe o nome digitado pelo usuário
+  let nome = prompt("Digite o seu nome:");
+
+  // Verifica se o nome é vazio ou contém apenas números
+  if (nome === "" || !isNaN(nome)) {
+    alert("O nome não pode ser vazio ou conter números. Tente novamente.");
+  } else {
+    // Adiciona o nome ao final da matriz
+    nomes.push(nome);
+    console.log("Nome adicionado: " + nome);
+    console.log("Matriz de nomes: ", nomes);
+  }
+  return nome;
+}
+
+
+
+here
+*/
+
 // usuarios podem inserir nomes no campo de texto
 let amigos = [];
 let lista = document.getElementById('listaAmigos');
