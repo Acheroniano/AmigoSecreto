@@ -12,6 +12,9 @@
 <h2> 🤖 Tecnologias utilizadas</h2>
 
 <div>
+  [![Example 3](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html){:target="_blank"}
+ 
+ 
  <a href="https://www.w3schools.com/html" target="_blank"><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="html link"></a>
 
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
