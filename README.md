@@ -17,6 +17,8 @@
 [![Amazon](https://img.shields.io/badge/Amazon%20Mais%20Vendidos-39E09B?style=plastic&logo=amazon&logoColor=blue)](https://amzn.to/3SYdXzY)
 [![Amazon](https://img.shields.io/badge/Amazon%20Ofertas-39E09B?style=plastic&logo=amazon&logoColor=blue)](https://amzn.to/3XbudAb)
 
+[![Amazon](https://img.shields.io/badge/Amazon%20Ofertas-39E09B?style=social&logo=amazon&logoColor=39E09B)](https://amzn.to/3XbudAb)
+
 https://dev.to/mayannaoliveira/badges-personalizadas-para-o-github-d2a
 [![linktree](https://img.shields.io/badge/Linktree-39E09B?style=social&logo=linktree&logoColor=39E09B)](https://linktr.ee/mayannaoliveira)
 
