@@ -7,7 +7,7 @@
 <div>
    <a href="https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL" target="_blank">
        <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal Donation" width="100" height="50">
-   </a>
+   </a><br>
    ###### Doações:<br>Pix: altaperformancenubank@gmail.com<br>
 </div>
 <br>
