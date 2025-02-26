@@ -24,7 +24,9 @@ https://dev.to/mayannaoliveira/badges-personalizadas-para-o-github-d2a
 <h2> 🤖 Tecnologias utilizadas</h2>
 
 <div>
-  # <a href="https://www.w3schools.com/html" target="_new"><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="html link"></a>
-  # <a href="https://www.w3schools.com/css" target="_new"><img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" alt="html link"></a>
-  <a href="https://www.w3schools.com/python" target="_new"><img src="https://img.shields.io/badge/python-F7DF1E?style=for-the-badge&logo=python&logoColor=blue" alt="python link"></a>
+ <a href="https://www.w3schools.com/python" target="_new"><img src="https://img.shields.io/badge/python-F7DF1E?style=for-the-badge&logo=python&logoColor=blue" alt="python link"></a>
 </div>
+
+ # <a href="https://www.w3schools.com/html" target="_new"><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="html link"></a>
+ # <a href="https://www.w3schools.com/css" target="_new"><img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" alt="html link"></a>
+  
